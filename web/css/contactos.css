@@ -1,0 +1,96 @@
+.menu{
+	list-style: none;
+	background: black;
+	margin:0px;
+	width: auto;
+	text-align: initial;
+
+}
+
+.parra{
+    font-size: 20px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+
+	background: #ffffff71;
+}
+
+body{
+
+background: url(../img/indeex.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.contenedornosotros{
+	background-color: rgba(0, 0, 0, 0.568);
+	backdrop-filter: blur(60px);
+	border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+
+.contenedornosotros:hover{
+	background-image: url(./img/acercade.jpg);
+}
+
+.contenedornosotros> h1{
+	color: white;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.contenedornosotros>p{
+	padding-bottom: 40px;
+	color: white;
+	text-align: center;
+	
+
+}
+
+
+
+/**Pie de pagina**/
+
+.pie{
+	background-color: black;
+	position: relative;
+	
+	margin: 0px;
+}
+
+.pie{
+	color: rgb(255, 253, 253);
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+}
+
+
+.logo{
+	width: 150px;
+	height: 150px;
+	display: inline;
+    margin: 10px;
+	
+		
+		top:auto;
+		right:auto ;
+	 border-radius: 4px;
+}

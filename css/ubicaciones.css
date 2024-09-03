@@ -1,0 +1,140 @@
+.menu{
+	list-style: none;
+	background: rgba(0, 0, 0, 0.678);
+	backdrop-filter: blur(5px);
+	width: auto;
+	text-align: initial;
+
+}
+
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+
+	background: #ffffff71;
+}
+
+body{
+max-width: 1000px;
+max-height: 1000px;
+background-color: black;
+}
+
+.contenedornosotros{
+	background-color: rgba(0, 0, 0, 0.568);
+	backdrop-filter: blur(60px);
+	height: 1000px;
+	border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+
+.contenedornosotros:hover{
+	background-image: url(./img/indeex.jpg);
+}
+
+.contenedornosotros> h1{
+	color: white;
+	padding-top: 100px;
+	text-align: center;
+}
+
+.contenedornosotros>p{
+	padding-bottom: 10px;
+	color: white;
+	text-align: center;
+	
+
+}
+
+
+
+/**Pie de pagina**/
+
+.pie{
+	background-color: black;
+	position: relative;
+	top: 400px;
+	margin: 0px;
+}
+
+.pie{
+	color: rgb(255, 253, 253);
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+}
+
+.logo{
+	margin: 10px;
+	width: 150px;
+	height: 150px;
+
+
+
+}
+.grid2{
+    height:500px ;
+	text-align: center;
+    margin: 0px;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+.grid2> .altogrid{
+    margin: 80px 0px 0px 0px;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+	
+    
+    color: cornsilk;
+    
+}
+
+
+.grid2>.enviosimg{
+	width: 100px;
+	height: 100px;
+	
+}
+
+.grid2> .altogrid> .titan{
+    width: 200px;
+    height: 100px;
+	padding: 10px;
+	margin: 0px;
+}
+
+img{
+	width: 390px;
+	height: 350px;
+
+	border-radius: 10px;
+}
+
+.logo{
+	width: 150px;
+	height: 150px;
+	display: inline;
+    margin: 10px;
+	
+		
+		top:auto;
+		right:auto ;
+	 border-radius: 4px;
+}

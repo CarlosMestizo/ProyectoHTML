@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 oct. 2021, 13:31:40
+    Author     : ALEXANDER
+*/
+
+.menu{
+	list-style: none;
+	background: rgba(0, 0, 0, 0.678);
+	backdrop-filter: blur(5px);
+	width: auto;
+	text-align: end;
+
+
+
+
+
+}
+
+.logo{
+	width: 150px;
+	height: 150px;
+	right: 700px;
+position: relative;
+	border-radius: 156px 156px 156px 156px;
+-moz-border-radius: 156px 156px 156px 156px;
+-webkit-border-radius: 156px 156px 156px 156px;
+border: 0px solid #000000;
+margin: auto;
+
+}
+
+
+body{
+   background-image:url(../img/indeex.jpg) ;
+   background-size: cover;
+    background-repeat: none;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ffffff71;
+}
+
+/**CONFIGURACION CATEGORIA**/
+.container{
+
+
+	width: 80%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 30px;
+
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 0px solid #000000;
+
+
+  }
+  
+  
+  .item{
+	background-color: rgb(31, 30, 30);
+	cursor: pointer;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+	backdrop-filter: blur(20px);
+	color: white;
+
+	transition: all 300ms;
+	
+	position: relative;
+
+	border-radius: 19px 19px 19px 19px;
+    -moz-border-radius: 19px 19px 19px 19px;
+    -webkit-border-radius: 19px 19px 19px 19px;
+    border: 0px solid #000000
+  }
+  
+  
+  .item::after {
+	
+	background-color: rgba(211, 214, 216, 0.671);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	transform: scale(0);
+	transition: all 300ms;
+	opacity: 0;
+  }
+  
+  .item:hover:after{
+	opacity: 1;
+	transform: scale(1);
+  }
+  
+  .item:hover {
+	transform: scale(1.05);
+  }
+  
+  .item-text{
+	padding: 1em;
+  }
+  
+  
+  .item-img{
+	max-width: 100%;
+	display: block;
+  }
+
+  .container{
+	display: grid;
+	grid-template-columns: 50% 50%;
+  }
+  
+.pie{
+	background-color: black;
+	position: relative;
+	top: 100px;
+	
+}
+
+.pie{
+	color: rgb(255, 253, 253);
+	text-align: center;
+
+	padding: 5px;
+}
